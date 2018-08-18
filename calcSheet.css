@@ -1,0 +1,54 @@
+.button {
+	-fx-text-fill: rgb(10, 10, 10);
+	-fx-border-color: rgb(230, 230, 230);
+	-fx-background-color: rgb(230, 230, 230);
+	-fx-border-radius: 6;
+	-fx-font-family: LucidaSans;
+	-fx-font-size: 28;
+	-fx-text-alignment: center;
+	-fx-pref-width: 115px;
+	-fx-pref-height: 80px;	
+	-fx-font-smoothing-type: lcd;
+	
+}
+
+#convText {
+	-fx-font-family: Consolas;
+	-fx-font-weight: bold;
+	-fx-font-size: 24;
+	-fx-font-smoothing-type: lcd;
+}
+
+#calcText {
+	-fx-font-family: Consolas;
+	-fx-font-weight: bold;
+	-fx-font-size: 64;
+	-fx-font-smoothing-type: lcd;
+}
+
+#equText {
+	-fx-font-family: Consolas;
+	-fx-font-size: 24;
+	-fx-font-smoothing-type: lcd;
+	-fx-text-fill: rgb(89, 89, 89, 0.8);
+}
+
+#convTextButtonUnhovered {
+	-fx-text-fill: transparent;
+	-fx-border-color: transparent;
+	-fx-background-color: transparent;
+	-fx-border-radius: 6;
+	-fx-min-width: 720px;
+	-fx-min-height: 35px;
+	-fx-pref-height: 35px;
+}
+
+#convTextButtonHovered {
+	-fx-text-fill: rgb(10, 10, 10);
+	-fx-border-color: rgb(230, 230, 230);
+	-fx-background-color: rgb(230, 230, 230);
+	-fx-border-radius: 6;
+	-fx-min-width: 720px;
+	-fx-min-height: 35px;
+	-fx-pref-height: 35px;
+}
